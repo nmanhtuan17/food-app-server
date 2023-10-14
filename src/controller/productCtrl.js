@@ -28,7 +28,7 @@ module.exports = {
                 [
                     {
                       $search: {
-                        index: "food-app",
+                        index: "products",
                         text: {
                           query: req.params.key,
                           path: {
